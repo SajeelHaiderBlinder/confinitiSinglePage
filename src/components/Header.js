@@ -2,6 +2,8 @@ import header_image from "../assets/header_image.svg";
 import rolus_logo from "../assets/rolus_logo.svg";
 import devsinc_logo from "../assets/devsinc_logo.svg";
 import netsol_logo from "../assets/netsol_logo.svg";
+import confiz_logo from "../assets/confiz_logo.png";
+import ebryx_logo from "../assets/ebryx_logo.svg";
 
 export const Header = () => {
   const handleButtonClick = () => {
@@ -37,12 +39,14 @@ export const Header = () => {
             </button>
           </div>
           <p className="text-base sm:text-slate-500 md:text-slate-500 mt-6">
-            Supported by top companies and communities:
+            Trusted By Renowned IT Firms
           </p>
-          <div className="flex flex-row mt-6 float-left justify-items-center items-center">
+          <div className="grid grid-cols-3 lg:grid-cols-3 gap-4 mt-6 float-left justify-items-center items-center">
             <img className="mr-2" src={rolus_logo} alt="rolus" />
             <img className="mr-2" src={devsinc_logo} alt="devsinc" />
             <img className="mr-2" src={netsol_logo} alt="netsol" />
+            <img className="mr-2 w-1/3" src={confiz_logo} alt="confiz" />
+            <img className="mr-2 " src={ebryx_logo} alt="ebrynx" />
           </div>
         </div>
         <div className="w-full sm:w-auto md:w-auto">
