@@ -29,7 +29,7 @@ export const OurTeams = () => {
             },
             {
               image: team_member_2,
-              name: "Taskeen",
+              name: "Taskeen Rajpoot",
               role: "Head of Event Creatives",
             },
             {
