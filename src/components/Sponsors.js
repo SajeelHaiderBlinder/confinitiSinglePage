@@ -7,9 +7,9 @@ export const Sponsors = () => {
   return (
     <div className="bg-black_shade p-6 flex flex-col items-center mt-8">
       <p className="text-yellow_shade"> Trusted By Renowned IT Firms</p>
-      <div className="grid grid-cols-5 lg:grid-cols-5 gap-4 mt-6 items-center justify-items-center">
+      <div className="grid grid-cols-4 lg:grid-cols-4 gap-2 mt-6 items-center justify-items-center">
         <img src={rolus_logo} alt="rolus" />
-        <img src={devsinc_logo} alt="devsinc" />
+        {/* <img src={devsinc_logo} alt="devsinc" /> */}
         <img src={netsol_logo} alt="netsol" />
         <img src={confiz_logo} alt="confiz" className="w-1/3" />
         <img src={ebryx_logo} alt="ebryx" />

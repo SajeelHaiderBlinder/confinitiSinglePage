@@ -41,9 +41,9 @@ export const Header = () => {
           <p className="text-base sm:text-slate-500 md:text-slate-500 mt-6">
             Trusted By Renowned IT Firms
           </p>
-          <div className="grid grid-cols-3 lg:grid-cols-3 gap-4 mt-6 float-left justify-items-center items-center">
+          <div className="grid grid-cols-4 lg:grid-cols-4 gap-4 mt-6 float-left justify-items-center items-center">
             <img className="mr-2" src={rolus_logo} alt="rolus" />
-            <img className="mr-2" src={devsinc_logo} alt="devsinc" />
+            {/* <img className="mr-2" src={devsinc_logo} alt="devsinc" /> */}
             <img className="mr-2" src={netsol_logo} alt="netsol" />
             <img className="mr-2 w-1/3" src={confiz_logo} alt="confiz" />
             <img className="mr-2 " src={ebryx_logo} alt="ebrynx" />
